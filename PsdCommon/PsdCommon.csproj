@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="psdCore">
+      <HintPath>..\..\..\..\NewStructureCore\PsdCore\Source\14011011\a_14011011_psdCore\a_14011011_psdCore\psdCore\psdCore\bin\Debug\psdCore.dll</HintPath>
+    </Reference>
+    <Reference Include="psdWebUtility">
+      <HintPath>..\DLL\psdWebUtility.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
